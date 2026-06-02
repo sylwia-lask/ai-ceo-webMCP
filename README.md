@@ -2,7 +2,7 @@
 
 A tongue-in-cheek startup management game where an AI agent runs your company through the **Model Context Protocol (MCP)** — directly from the browser, with no backend.
 
-**Live demo:** https://sylwia-lask.github.io/ai-ceo-webmcp/
+**Live demo:** https://sylwia-lask.github.io/ai-ceo-webMCP/
 
 ## What it is
 
