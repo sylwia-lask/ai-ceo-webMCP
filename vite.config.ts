@@ -196,5 +196,6 @@ function webMcpPlugin(): Plugin {
 // ─── Vite config ──────────────────────────────────────────────────────────────
 
 export default defineConfig({
+  base: '/ai-ceo-webmcp/',
   plugins: [tailwindcss(), react(), webMcpPlugin()],
 });
