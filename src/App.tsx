@@ -48,7 +48,6 @@ export default function App() {
 
   const dispatchRef = useRef<(key: string) => void>(() => {});
 
-  // Persist to sessionStorage on every change.
   useEffect(() => {
     sessionStorage.setItem(SESSION_KEY_STATE, JSON.stringify(company));
   }, [company]);
@@ -75,9 +74,6 @@ export default function App() {
     sessionStorage.removeItem(SESSION_KEY_LOG);
   }, []);
 
-  // Register WebMCP tools once on mount.
-  // registerWebMcpTools always exposes tools (postMessage + window globals),
-  // so it always resolves true — the badge always shows "tools exposed".
   useEffect(() => {
     registerWebMcpTools(
       () => companyRef.current,

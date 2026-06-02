@@ -1,6 +1,3 @@
-// Shared tool schemas — used by vite.config.ts (Node.js) AND the browser bundle.
-// Keep descriptions in sync with ACTIONS in companyLogic.ts.
-
 export interface McpToolSchema {
   name: string;
   description: string;
